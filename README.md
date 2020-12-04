@@ -3,11 +3,13 @@ This repository contains the python scripts used for my Data Science &amp; Socie
 
 In this repository you will find three python scripts:
 
-- video_frame_extraction.py
+- frame_extraction.py
 - facial_region_extraction.py
 - Xception_model.ipynb
 
-video_frame_extraction.py is the script used to extract frames from the datasets downloaded.
+frame_extraction.py is the script used to extract frames from the datasets downloaded.
+This file is a modified version of HaydenFaulkner's code. Original available at: 
+https://gist.github.com/HaydenFaulkner/3aa69130017d6405a8c0580c63bee8e6
 
 facial_region_extraction.py used the .csv files exported by the docker solution of OpenFace and extract different facial features.
 
