@@ -14,4 +14,5 @@ https://gist.github.com/HaydenFaulkner/3aa69130017d6405a8c0580c63bee8e6
 facial_region_extraction.py used the .csv files exported by the docker solution of OpenFace and extract different facial features.
 
 Xception_model.py is the file used in Google Colab to train and evaluate the models proposed in the thesis.
-
+This file is a modified version of Abner Ayala-Acevedo's Inception-v3-fine-tune-v2.py script. Original available at:
+https://github.com/sakares/keras-fine-tune-cat-dog-vgg16/blob/master/inception-v3-fine-tune-v2.py
